@@ -89,7 +89,8 @@ public class ContestRepository implements IContestRepository {
     @Override
     public long count() {
         // TODO Auto-generated method stub
-        return contestMap.values().stream().count();    }
+        return contestMap.values().stream().count();  
+      }
 
     // TODO: CRIO_TASK_MODULE_SERVICES
     // Find all the list of Contest Present in the Repository provided Level
